@@ -1,0 +1,75 @@
+aside {
+    background-color: #F9FAFC;
+    border-left: 2px solid #DEDFE9;
+}
+
+.avatar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.avatar-img {
+    width: 50px;
+}
+
+.avatar-bell {
+    width: 30px;
+}
+
+.wallets {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    gap: 5px;
+    margin-top: 30px;
+    border-bottom: 2px solid #DEDFE9;
+}
+
+.category {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.plus-icon {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.aside-cont {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.aside-icons {
+    width: 40px;
+}
+
+.aside-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.aside-title > span {
+    color: #8B93A6;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-top: 30px;  
+    gap: 5px;     
+}
