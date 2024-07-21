@@ -1,0 +1,49 @@
+@media (max-width: 1200px) {
+    header {
+        flex-wrap: wrap;        
+        width: auto;        
+        gap: 10px;
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+
+    nav {
+        display: flex;
+        gap: 15px;
+    }
+
+    .filters {
+        flex-wrap: wrap;      
+    }
+
+    .home-wallet {
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media (max-width: 460px) {
+    body {          
+        grid-template-columns: 1fr 180px;          
+    }
+
+    header {
+        flex-wrap: wrap;        
+        width: auto;       
+        gap: 10px;
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+
+    .form > input {
+        width: 160px;          
+    }
+
+    .plus-icon {       
+        right: 10px;
+    }
+
+    .item {       
+        height: 120px;        
+    }
+}
